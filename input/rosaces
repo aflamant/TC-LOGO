@@ -1,0 +1,24 @@
+SAVE $ROSACE [
+   CIRCLE 50
+   MOVE 50
+   LEFT 60
+   REPEAT 6 [
+      CIRCLE 50
+      LEFT 60
+      MOVE 50
+   ]
+   LEFT 120
+   MOVE 50
+   LEFT 180
+]
+REPEAT 4 [
+   REPEAT 4 [
+      $ROSACE
+      MOVE 100
+   ]
+   LEFT 180
+   MOVE 400
+   LEFT 90
+   MOVE 87
+   LEFT 90
+]
